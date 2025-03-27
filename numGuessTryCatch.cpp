@@ -23,7 +23,7 @@ int main() {
     std::random_device rseed;
     // Generates the seed using the mersenne twister.
     std::mt19937 rgen(rseed());
-    // Distributes the possible integers over a distance of 0-9.
+    // Distributes the possible integers over a distance of 0 to 9.
     std::uniform_int_distribution<int> idist(0, 9);
     // Sets the correct number to the generated integer.
     correctNum = idist(rgen);
