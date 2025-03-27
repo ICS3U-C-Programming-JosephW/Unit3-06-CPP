@@ -9,7 +9,7 @@ prevent erroneous user input from crashing the program. */
 /* Include the iostream library for
 input and output functionalities. */
 #include <iostream>
-// Include the random libary for random number generators.
+// Include the random library for random number generators.
 #include <random>
 /* Include the string library because it 
 adheres to the style guidelines. */
@@ -31,7 +31,7 @@ int main() {
     // Declare the variable for the chosen number as a string.
     std::string chosenNumberStr;
 
-    /* Additionally, declare the variable for the chosen nummber
+    /* Additionally, declare the variable for the chosen number
     as an integer. */
     int chosenNumberInt;
 
